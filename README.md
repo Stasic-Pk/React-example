@@ -6,9 +6,9 @@
 - [ ] data types
   - [ ] data type conversion
 - [ ] arithmetic operations
-- [ ] array
-- [ ] objects
-- [ ] spread / rest
+- [ ] array / objects
+  - [ ] spread
+  - [ ] rest
 - [ ] function / arrow functions / return
 - [ ] if / else if / else
 - [ ] compare (== / === / < / > / ! / != / || / &&)
