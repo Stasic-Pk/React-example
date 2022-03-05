@@ -5,7 +5,7 @@
 - [x] variables (var / let / const)
 - [x] data types
   - [x] data type conversion
-- [ ] arithmetic operations
+- [x] arithmetic operations
 - [ ] array / objects
   - [ ] spread
   - [ ] rest
