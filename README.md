@@ -2,9 +2,9 @@
 
 **To learn:**
 
-- [ ] variables (var / let / const)
-- [ ] data types
-  - [ ] data type conversion
+- [x] variables (var / let / const)
+- [x] data types
+  - [x] data type conversion
 - [ ] arithmetic operations
 - [ ] array / objects
   - [ ] spread
