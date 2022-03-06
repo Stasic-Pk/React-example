@@ -9,10 +9,11 @@
 - [ ] array / objects
   - [ ] spread
   - [ ] rest
-- [ ] function / arrow functions / return
+- [ ] for / while
 - [ ] if / else if / else
 - [ ] compare (== / === / < / > / ! / != / || / &&)
-- [ ] for / while
+- [ ] function / arrow functions / return
+- [ ] locking
 - [ ] map / forEach / find / reduce
 - [ ] async / await
 - [ ] promises
