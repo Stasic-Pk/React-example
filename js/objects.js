@@ -30,3 +30,37 @@ let userInfo2 = {
   [id]: ""
 }
 console.log(userInfo2)
+
+function makeUserInfo(name, age) {
+  return {
+    name, // name: name, = name,
+    age, // age: age, = age,
+  }
+}
+let user = makeUserInfo("stas", 13)
+console.log(user)
+
+let userInfo3 = {
+  name: "stas",
+}
+
+console.log(userInfo3)
+
+userInfo.age = 13 //назва обєкту, через .  імя компонента який хочеш зробити і через = його значення (значення може бути обєктом) наприклад userInfo.age = 13
+
+console.log(userInfo3)
+
+userInfo["likes js"] = true
+
+console.log(userInfo3)
+
+delete userInfo["likes js"]
+
+console.log(userInfo3)
+
+userInfo.address = {
+  sity: "lviv",
+  street: "Freedom",
+}
+
+console.log(userInfo3)
