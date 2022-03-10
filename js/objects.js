@@ -1,3 +1,5 @@
+const { object } = require("prop-types")
+
 let obj = {
   name: "stas", 
   age: 13,
@@ -69,6 +71,7 @@ let userInfo4 = {
   name: "stas",
   age: 13,
 }
+
 console.log(userInfo4)
 
 userInfo4.name = "Stas"
@@ -77,6 +80,10 @@ console.log(userInfo4)
 
 let user1 = userInfo4
 
-user.name1 = "stas"
-
 console.log(userInfo4)
+
+const keys = Object.keys(userInfo4)
+
+for(let i = 0; i < 2; i++) {
+  console.log(userInfo4[keys[i]])
+}
