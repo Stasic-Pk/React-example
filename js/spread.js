@@ -5,3 +5,7 @@ function sum(x, y, z) {
 }
 
 sum(...arr)
+
+console.log(...arr)
+console.log(arr)
+//різниця в тому що arr дасть масив, а якщо записати ...arr то як відільні значеня
