@@ -6,11 +6,11 @@
 - [x] data types
   - [x] data type conversion
 - [x] arithmetic operations
-- [ ] array / objects
-  - [ ] spread
-  - [ ] rest
-- [ ] for / while
+- [x] array / objects
+  - [x] spread
+  - [x] rest
 - [ ] if / else if / else
+- [ ] for / while
 - [ ] compare (== / === / < / > / ! / != / || / &&)
 - [ ] function / arrow functions / return
 - [ ] locking
