@@ -5,6 +5,7 @@ function sum(x, y, z) {
 }
 
 sum(...arr)
+//sum(arr) - error
 
 console.log(...arr)
 console.log(arr)
