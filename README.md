@@ -11,7 +11,7 @@
   - [x] rest
 - [x] if / else if / else
 - [x] for / while
-- [ ] compare (== / === / < / > / ! / != / || / &&)
+- [x] compare (== / === / < / > / ! / != / || / &&)
 - [ ] function / arrow functions / return
 - [ ] locking
 - [ ] map / forEach / find / reduce
