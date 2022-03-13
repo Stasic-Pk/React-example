@@ -9,9 +9,9 @@
 - [x] array / objects
   - [x] spread
   - [x] rest
-- [ ] if / else if / else
-- [ ] for / while
-- [ ] compare (== / === / < / > / ! / != / || / &&)
+- [x] if / else if / else
+- [x] for / while
+- [x] compare (== / === / < / > / ! / != / || / &&)
 - [ ] function / arrow functions / return
 - [ ] locking
 - [ ] map / forEach / find / reduce
