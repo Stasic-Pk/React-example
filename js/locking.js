@@ -1,12 +1,12 @@
-// function locking(n) {
-//   return function() {
-//     console.log(10 * n)
-//   }
-// }
+function locking(n) {
+  return function() {
+    console.log(10 * n)
+  }
+}
 
-// const calc = locking(60)
+const calc = locking(60)
 
-// calc()
+calc()
 
 function createInc(x) {
   return function(y) {
