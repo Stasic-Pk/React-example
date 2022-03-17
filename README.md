@@ -12,8 +12,8 @@
 - [x] if / else if / else
 - [x] for / while
 - [x] compare (== / === / < / > / ! / != / || / &&)
-- [ ] function / arrow functions / return
-- [ ] locking
+- [x] function / arrow functions / return
+- [x] locking
 - [ ] map / forEach / find / reduce
 - [ ] async / await
 - [ ] promises
