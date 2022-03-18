@@ -44,3 +44,14 @@ console.log(stasicl)
 
 const indexStasicl = people.findIndex(person => person.name === "Стас")
 console.log(indexStasicl)
+
+const newTwoPeople = people
+  .filter(person => person.budget > 4000)
+  .map(person => {
+    return {
+      infa: "${person.name} {${person.age}}",
+      budget: Math.sqrt(person.budget)
+    }
+  })
+  .reduce((total, person) => total + person.budget, 0)
+  console.log(newTwoPeople)
