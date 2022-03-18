@@ -1,10 +1,10 @@
 const people = [
   {name: "Стас", age: 5**5**5, budget: 40000},
-  {name: "Олег", age: 17, budget: 2400},
   {name: "Саша", age: 5**5**5+5, budget: 50000},
+  {name: "Олег", age: 17, budget: 2400},
   {name: "Василь", age: 15, budget: 1800},
   {name: "Міша", age: 24, budget: 25000},
-  {name: "Саша", age: 28, budget: 5000},
+  {name: "Саша", age: 18, budget: 5000},
 ]
 
 // for(let i = 0; i < people.length; i++) {
@@ -38,3 +38,9 @@ console.log(adults)
 
 const amount = people.reduce((total, person) => total + person.budget, 0)
 console.log(amount)
+
+const stasicl = people.find(person => person.name === "Стас")
+console.log(stasicl)
+
+const indexStasicl = people.findIndex(person => person.name === "Стас")
+console.log(indexStasicl)
