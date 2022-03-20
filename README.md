@@ -14,6 +14,6 @@
 - [x] compare (== / === / < / > / ! / != / || / &&)
 - [x] function / arrow functions / return
 - [x] locking
-- [ ] map / forEach / find / reduce
-- [ ] async / await
+- [x] map / forEach / find / reduce
 - [ ] promises
+- [ ] async / await
