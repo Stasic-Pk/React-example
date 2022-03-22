@@ -15,5 +15,5 @@
 - [x] function / arrow functions / return
 - [x] locking
 - [x] map / forEach / find / reduce
-- [ ] promises
 - [ ] async / await
+- [ ] promises
