@@ -1,19 +1,19 @@
-// async function x(time = 1000, x = 2) {
-//   setTimeout(() => {
-//     console.log(x)
-//   }, time);
-// }
+async function x(time = 1000, x = 2) {
+  setTimeout(() => {
+    console.log(x)
+  }, time);
+}
 
-// x(6000, 1)
-// x()
+x(6000, 1)
+x()
 
-// async function y() {
-//   await x(4000, 4)
-// }
+async function y() {
+  await x(4000, 4)
+}
 
-// y()
+y()
 
-// console.log(3)
+console.log(3)
 
 let time = 0
 
