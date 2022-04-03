@@ -1,4 +1,4 @@
-const num = require('readline').createInterface({
+const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 })
@@ -12,14 +12,17 @@ for(let i = 0; i < 4; i++) {
 }
 console.log(randomNumbers)
 
-const numb = num.question(number => {num.close()})
-
-  for (let i = 0; i < 1; i++) {
-    for (let index = 0; index < 4; index++) {
-      numb
-      arrNum[index] = number
-      console.log(arrNum)
-    }
+function input() {
+  for (let index = 0; index < 1; index++) {
+      readline.question("введите цифри ", number => {
+        readline.close()
+        console.log(index),
+        arrNum[index] = number
+        console.log(arrNum)
+      })
   }
+}
 
-  // error
+for (let i = 0; i < 40; i++) {
+  input()
+}
