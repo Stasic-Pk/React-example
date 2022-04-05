@@ -7,5 +7,8 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
   }
 }
