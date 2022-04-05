@@ -1,12 +1,9 @@
 const chalk = require('chalk')
-const { execFileSync } = require('child_process')
 
 let randomNumber = []
-let number = ''
 let tags = []
 let q = 0
 let wonTicket = []
-
 
 for (let i = 0; i < 4; i++) {
   let x = (Math.floor(Math.random() * 10))
@@ -21,7 +18,7 @@ for (let i = 0; i < 4; i++) {
     randomNumber[i] = x;
   }
 }
-// console.log(randomNumber)
+
 console.log(chalk.gray("to exit enter x"))
 
 const readline = require('readline').createInterface({
@@ -77,8 +74,6 @@ async function play() {
       q = 0
       wonTicket.length = 0
     }
-
-
   }
 
   exit();
