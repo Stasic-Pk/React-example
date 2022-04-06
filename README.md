@@ -17,3 +17,15 @@
 - [x] map / forEach / find / reduce
 - [x] async / await
 - [x] promises
+- [ ] OOP
+  - [ ] general view
+  - [ ] new
+  - [ ] constructor
+  - [ ] fields
+  - [ ] metdhods
+  - [ ] static methods
+  - [ ] getter
+  - [ ] setter
+  - [ ] tools
+    - [ ] instanceof
+    - [ ] ...
