@@ -12,6 +12,6 @@ class Person {
 
 }
 
-const giles = new Person('Giles');
+const consol = new Person('console');
 
-giles.introduceSelf()
+consol.introduceSelf()
