@@ -27,3 +27,16 @@ for(let i = 0; i < 15; i++) {
     console.log(i)
   }, time);
 }
+
+let l = 0
+
+setInterval(() => {
+  console.log("hello world", l)
+  l++
+}, 100)
+
+const delay = (collBack, wait = 1000) => {
+  setTimeout(collBack, wait)
+}
+
+delay(() => {console.log("after 1 seconds")}, 1000)
