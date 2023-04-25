@@ -4,9 +4,9 @@ const PostItem = (props) => {
   return (
   <div className="post">
     <div className="postContent">
-      <strong>1. JS</strong>
+      <strong>{props.post.id} {props.post.title}</strong>
       <div>
-        JS - prog language
+        {props.post.body}
       </div>
     </div>
     <div className="postButtons">
